@@ -1,3 +1,4 @@
+/*General css rules*/
 body{
     color: #434455;
     line-height: 1.5;
@@ -19,6 +20,13 @@ img{
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+/*Header*/
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.page-header a{
+    margin-right: 76px;
 }
 .page-logo-first{
 color: #4D5AE5;
@@ -92,9 +100,9 @@ text-decoration: none;
 
 
 }
-
+/*Hero section (section 1)*/
 .hero-section{
-    
+    padding: 188px 0;
     display: flex;
     align-items: center;
     height: 600px;
@@ -134,6 +142,7 @@ text-decoration: none;
     background-color: #404BBF;
     cursor: pointer;
 }
+/*About section (section 2)*/
 .section-about-hidden-title{
     display: none;
 }
@@ -150,6 +159,7 @@ text-decoration: none;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*Our team section (section 3)*/
 .our-team-section{
     background-color: #f4f4fd;
 }
@@ -175,6 +185,7 @@ font-size: 36px;
 .our-team-section-list{
     background-color: #FFFFFF;
 }
+/*Footer*/
 footer{
 background-color: #2E2F42;
 }
