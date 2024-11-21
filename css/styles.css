@@ -7,6 +7,18 @@ body{
 }
 ul{
     list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    display:block;
+}
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .page-logo-first{
 color: #4D5AE5;
@@ -16,7 +28,7 @@ font-weight: 700;
 line-height: 1.17;
     font-size: 18px;
     letter-spacing: 0.03em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 .page-logo-second{
 color: #2e2f42;
@@ -27,30 +39,45 @@ font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase
 }
+.header-container{
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc;
+}
+.page-nav{
+    display: flex;
+        align-items: center;
+}
 .page-nav .page-nav-list{
 text-decoration: none;
 
 
 }
+.page-nav-list{
+    display: flex;
+        gap: 40px;
+}
 .page-nav-link{
-    text-decoration: inherit;
+    padding: 24px 0;
     color: #2e2f42;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
 }
-.page-nav-link:hover{
+.page-nav-link:hover,.page-nav-link:focus{
     color: #404bbf;
 }
-.page-nav-link:focus{
-    color: #404bbf;
-}
+
 .page-address{
     font-style: normal;
 }
 .page-address-list{
-    list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 .page-address-link{
     color: #434455;
@@ -60,27 +87,37 @@ text-decoration: none;
     
 
 }
-.page-address-link:hover{
+.page-address-link:hover,.page-address-link:focus{
     color: #404bbf;
 
 
 }
-.page-address-link:focus{
-    color: #404bbf;
-}
+
 .hero-section{
+    
+    display: flex;
+    align-items: center;
+    height: 600px;
     background-color: #2E2F42;
 }
 .hero-section .hero-title{
-    text-align: center;
+    
+    width: 496px;
+    height: 120px;
     line-height: 1.07;
     color: #ffffff;
     font-size: 56px;
     font-weight: 700;
     letter-spacing: 0.02em
 }
+
 .hero-button{
+   
+    display: block;
+    height: 56px;
+    width: 169px;
     color: #ffffff;
+    border-radius: 4px;
     border: none;
     background-color: #4D5AE5;
     font-weight: 500;
@@ -96,6 +133,9 @@ text-decoration: none;
 .hero-button:focus{
     background-color: #404BBF;
     cursor: pointer;
+}
+.section-about-hidden-title{
+    display: none;
 }
 .section-about-title{
     font-weight: 500;
