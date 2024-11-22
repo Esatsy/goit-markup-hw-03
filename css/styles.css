@@ -15,6 +15,7 @@ a{
 }
 img{
     display:block;
+    width: 100%;
 }
 .container {
     width: 1158px;
@@ -160,6 +161,7 @@ text-decoration: none;
 }
 .section-about-list{
     display: flex;
+    
     gap: 24px;
 }
 .section-about-list-item{
