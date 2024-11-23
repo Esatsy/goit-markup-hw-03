@@ -214,10 +214,11 @@ font-size: 36px;
     
 }
 .our-team-section-list-item{
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
 }
-.our-team-section-list-item-container{
+.our-team-seection-list-item .our-team-section-list-item-container{
     padding: 32px 0;
 
 }
@@ -243,7 +244,7 @@ row-gap: 48px;
     width: calc((100% - 72px) / 4);
 }
 /*Footer*/
-footer{
+.page-footer{
     padding: 100px 0;
 background-color: #2E2F42;
 }
